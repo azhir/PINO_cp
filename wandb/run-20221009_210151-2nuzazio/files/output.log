@@ -1,9 +1,0 @@
-  0%|                                                                                                                                                                                                                                        | 0/500 [00:00<?, ?it/s]
-Traceback (most recent call last):
-  File "/home/kamyara/PINO/PINO/train_burgers.py", line 86, in <module>
-    run(args, config)
-  File "/home/kamyara/PINO/PINO/train_burgers.py", line 39, in run
-    train_2d_burger(model,
-  File "/home/kamyara/PINO/PINO/train_utils/train_2d.py", line 164, in train_2d_burger
-    out = model(x,padding).reshape(y.shape)
-RuntimeError: shape '[20, 26, 32]' is invalid for input of size 27200

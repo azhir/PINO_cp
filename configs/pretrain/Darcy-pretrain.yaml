@@ -7,8 +7,8 @@ data:
   nx: 421
   padding: 4 
   sub: 7
-  pde_padding: 14 
-  pde_sub: 2
+  pde_padding: 28 
+  pde_sub: 1
 
 model:
   layers: [64, 64, 64, 64, 64]
@@ -18,7 +18,7 @@ model:
   activation: gelu
 
 train:
-  batchsize: 1
+  batchsize: 20
   epochs: 300
   milestones: [100, 150, 200]
   base_lr: 0.001
@@ -26,7 +26,7 @@ train:
   f_loss: 1.0
   xy_loss: 5.0
   save_dir: 'darcy-FDM'
-  save_name: 'darcy-pretrain-pino.pt'
+  save_name: 'darcy-pretrain-pino20.pt'
 
 log:
   project: 'PINO-Darcy-pretrain'
