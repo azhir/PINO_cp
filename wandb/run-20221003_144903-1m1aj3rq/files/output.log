@@ -1,0 +1,18 @@
+
+  0%|                                                                                                                                                                                                                                         | 0/300 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kamyara/PINO/PINO/train_operator.py", line 125, in <module>
+    train_2d(args, config)
+  File "/home/kamyara/PINO/PINO/train_operator.py", line 103, in train_2d
+    train_2d_operator(model,
+  File "/home/kamyara/PINO/PINO/train_utils/train_2d.py", line 83, in train_2d_operator
+    pred = model(pde_x,pde_padding)
+  File "/home/kamyara/anaconda3/envs/myenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kamyara/PINO/PINO/models/fourier2d.py", line 67, in forward
+    x1 = speconv(x)
+  File "/home/kamyara/anaconda3/envs/myenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kamyara/PINO/PINO/models/basics.py", line 109, in forward
+    x = torch.fft.irfftn(out_ft, s=(x.size(-2), x.size(-1)), dim=[2, 3])
+RuntimeError: CUDA out of memory. Tried to allocate 90.00 MiB (GPU 0; 1.93 GiB total capacity; 922.92 MiB already allocated; 88.31 MiB free; 1.06 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

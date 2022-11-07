@@ -1,0 +1,168 @@
+
+
+Epoch 0, train loss: 0.21994 train f error: 0.05801; data l2 error: 0.74763:   0%|▎                                                                                                                                                | 1/500 [00:46<6:26:35, 46.48s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 100, train loss: 0.00403 train f error: 0.00373; data l2 error: 0.12290:  20%|████████████████████████████                                                                                                               | 101/500 [1:16:53<5:03:41, 45.67s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 148, train loss: 0.00936 train f error: 0.00871; data l2 error: 0.13594:  30%|█████████████████████████████████████████▍                                                                                                 | 149/500 [1:54:10<4:28:58, 45.98s/it]
+Traceback (most recent call last):
+  File "/home/kamyara/PINO/PINO/train_burgers.py", line 86, in <module>
+    run(args, config)
+  File "/home/kamyara/PINO/PINO/train_burgers.py", line 39, in run
+    train_2d_burger(model,
+  File "/home/kamyara/PINO/PINO/train_utils/train_2d.py", line 181, in train_2d_burger
+    scheduler.step()
+  File "/home/kamyara/anaconda3/envs/myenv/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 154, in step
+    values = self.get_lr()
+  File "/home/kamyara/anaconda3/envs/myenv/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 423, in get_lr
+    return [group['lr'] * self.gamma ** self.milestones[self.last_epoch]
+  File "/home/kamyara/anaconda3/envs/myenv/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 423, in <listcomp>
+    return [group['lr'] * self.gamma ** self.milestones[self.last_epoch]
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'

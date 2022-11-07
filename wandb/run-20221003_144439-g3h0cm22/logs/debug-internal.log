@@ -1,0 +1,156 @@
+2022-10-03 14:44:39,790 INFO    StreamThr :1997813 [internal.py:wandb_internal():90] W&B internal server running at pid: 1997813, started at: 2022-10-03 14:44:39.789146
+2022-10-03 14:44:39,793 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: status
+2022-10-03 14:44:39,795 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: status
+2022-10-03 14:44:39,798 DEBUG   SenderThread:1997813 [sender.py:send():302] send: header
+2022-10-03 14:44:39,798 INFO    WriterThread:1997813 [datastore.py:open_for_write():75] open: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/run-g3h0cm22.wandb
+2022-10-03 14:44:39,799 DEBUG   SenderThread:1997813 [sender.py:send():302] send: run
+2022-10-03 14:44:40,094 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: check_version
+2022-10-03 14:44:40,096 INFO    SenderThread:1997813 [dir_watcher.py:__init__():216] watching files in: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files
+2022-10-03 14:44:40,096 INFO    SenderThread:1997813 [sender.py:_start_run_threads():913] run started: g3h0cm22 with start time 1664833479.784644
+2022-10-03 14:44:40,096 DEBUG   SenderThread:1997813 [sender.py:send():302] send: summary
+2022-10-03 14:44:40,097 INFO    SenderThread:1997813 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-10-03 14:44:40,097 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: check_version
+2022-10-03 14:44:40,194 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: run_start
+2022-10-03 14:44:40,208 DEBUG   HandlerThread:1997813 [meta.py:__init__():35] meta init
+2022-10-03 14:44:40,208 DEBUG   HandlerThread:1997813 [meta.py:__init__():50] meta init done
+2022-10-03 14:44:40,208 DEBUG   HandlerThread:1997813 [meta.py:probe():216] probe
+2022-10-03 14:44:40,215 DEBUG   HandlerThread:1997813 [meta.py:_setup_git():206] setup git
+2022-10-03 14:44:40,226 DEBUG   HandlerThread:1997813 [meta.py:_setup_git():213] setup git done
+2022-10-03 14:44:40,226 DEBUG   HandlerThread:1997813 [meta.py:_save_pip():54] save pip
+2022-10-03 14:44:40,226 DEBUG   HandlerThread:1997813 [meta.py:_save_pip():68] save pip done
+2022-10-03 14:44:40,226 DEBUG   HandlerThread:1997813 [meta.py:_save_conda():75] save conda
+2022-10-03 14:44:41,098 INFO    Thread-12 :1997813 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/conda-environment.yaml
+2022-10-03 14:44:41,099 INFO    Thread-12 :1997813 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/requirements.txt
+2022-10-03 14:44:41,099 INFO    Thread-12 :1997813 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/wandb-summary.json
+2022-10-03 14:44:41,428 DEBUG   HandlerThread:1997813 [meta.py:_save_conda():85] save conda done
+2022-10-03 14:44:41,428 DEBUG   HandlerThread:1997813 [meta.py:probe():254] probe done
+2022-10-03 14:44:41,432 DEBUG   SenderThread:1997813 [sender.py:send():302] send: files
+2022-10-03 14:44:41,432 INFO    SenderThread:1997813 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-10-03 14:44:41,439 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-03 14:44:41,440 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: stop_status
+2022-10-03 14:44:41,532 DEBUG   SenderThread:1997813 [sender.py:send():302] send: telemetry
+2022-10-03 14:44:41,896 INFO    Thread-16 :1997813 [upload_job.py:push():138] Uploaded file /tmp/tmp4t0fk4dxwandb/117t5eux-wandb-metadata.json
+2022-10-03 14:44:42,097 INFO    Thread-12 :1997813 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/conda-environment.yaml
+2022-10-03 14:44:42,097 INFO    Thread-12 :1997813 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/wandb-metadata.json
+2022-10-03 14:44:42,098 INFO    Thread-12 :1997813 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/output.log
+2022-10-03 14:44:42,186 DEBUG   SenderThread:1997813 [sender.py:send():302] send: exit
+2022-10-03 14:44:42,186 INFO    SenderThread:1997813 [sender.py:send_exit():438] handling exit code: 1
+2022-10-03 14:44:42,187 INFO    SenderThread:1997813 [sender.py:send_exit():440] handling runtime: 1
+2022-10-03 14:44:42,187 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-03 14:44:42,190 INFO    SenderThread:1997813 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-10-03 14:44:42,190 INFO    SenderThread:1997813 [sender.py:send_exit():446] send defer
+2022-10-03 14:44:42,190 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: poll_exit
+2022-10-03 14:44:42,191 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: defer
+2022-10-03 14:44:42,191 INFO    HandlerThread:1997813 [handler.py:handle_request_defer():164] handle defer: 0
+2022-10-03 14:44:42,191 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: defer
+2022-10-03 14:44:42,192 INFO    SenderThread:1997813 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-10-03 14:44:42,192 INFO    SenderThread:1997813 [sender.py:transition_state():459] send defer: 1
+2022-10-03 14:44:42,192 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: defer
+2022-10-03 14:44:42,193 INFO    HandlerThread:1997813 [handler.py:handle_request_defer():164] handle defer: 1
+2022-10-03 14:44:42,275 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: defer
+2022-10-03 14:44:42,275 INFO    SenderThread:1997813 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-10-03 14:44:42,276 INFO    SenderThread:1997813 [sender.py:transition_state():459] send defer: 2
+2022-10-03 14:44:42,276 DEBUG   SenderThread:1997813 [sender.py:send():302] send: stats
+2022-10-03 14:44:42,276 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: defer
+2022-10-03 14:44:42,277 INFO    HandlerThread:1997813 [handler.py:handle_request_defer():164] handle defer: 2
+2022-10-03 14:44:42,277 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: defer
+2022-10-03 14:44:42,277 INFO    SenderThread:1997813 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-10-03 14:44:42,277 INFO    SenderThread:1997813 [sender.py:transition_state():459] send defer: 3
+2022-10-03 14:44:42,277 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: defer
+2022-10-03 14:44:42,277 INFO    HandlerThread:1997813 [handler.py:handle_request_defer():164] handle defer: 3
+2022-10-03 14:44:42,278 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: defer
+2022-10-03 14:44:42,278 INFO    SenderThread:1997813 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-10-03 14:44:42,278 INFO    SenderThread:1997813 [sender.py:transition_state():459] send defer: 4
+2022-10-03 14:44:42,278 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: defer
+2022-10-03 14:44:42,278 INFO    HandlerThread:1997813 [handler.py:handle_request_defer():164] handle defer: 4
+2022-10-03 14:44:42,278 DEBUG   SenderThread:1997813 [sender.py:send():302] send: summary
+2022-10-03 14:44:42,282 INFO    SenderThread:1997813 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-10-03 14:44:42,282 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: defer
+2022-10-03 14:44:42,282 INFO    SenderThread:1997813 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-10-03 14:44:42,282 INFO    SenderThread:1997813 [sender.py:transition_state():459] send defer: 5
+2022-10-03 14:44:42,283 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: defer
+2022-10-03 14:44:42,283 INFO    HandlerThread:1997813 [handler.py:handle_request_defer():164] handle defer: 5
+2022-10-03 14:44:42,283 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: defer
+2022-10-03 14:44:42,283 INFO    SenderThread:1997813 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-10-03 14:44:42,293 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-03 14:44:42,396 INFO    SenderThread:1997813 [sender.py:transition_state():459] send defer: 6
+2022-10-03 14:44:42,396 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: poll_exit
+2022-10-03 14:44:42,397 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: defer
+2022-10-03 14:44:42,397 INFO    HandlerThread:1997813 [handler.py:handle_request_defer():164] handle defer: 6
+2022-10-03 14:44:42,398 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: defer
+2022-10-03 14:44:42,398 INFO    SenderThread:1997813 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-10-03 14:44:42,499 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-03 14:44:43,098 INFO    Thread-12 :1997813 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/config.yaml
+2022-10-03 14:44:43,098 INFO    Thread-12 :1997813 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/wandb-summary.json
+2022-10-03 14:44:43,543 INFO    SenderThread:1997813 [sender.py:transition_state():459] send defer: 7
+2022-10-03 14:44:43,543 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: poll_exit
+2022-10-03 14:44:43,544 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: defer
+2022-10-03 14:44:43,545 INFO    HandlerThread:1997813 [handler.py:handle_request_defer():164] handle defer: 7
+2022-10-03 14:44:43,545 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: defer
+2022-10-03 14:44:43,545 INFO    SenderThread:1997813 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-10-03 14:44:43,546 INFO    SenderThread:1997813 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-03 14:44:43,647 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-03 14:44:44,099 INFO    Thread-12 :1997813 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/output.log
+2022-10-03 14:44:44,100 INFO    SenderThread:1997813 [dir_watcher.py:finish():392] scan: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files
+2022-10-03 14:44:44,100 INFO    SenderThread:1997813 [dir_watcher.py:finish():406] scan save: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/wandb-metadata.json wandb-metadata.json
+2022-10-03 14:44:44,100 INFO    SenderThread:1997813 [dir_watcher.py:finish():406] scan save: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/requirements.txt requirements.txt
+2022-10-03 14:44:44,100 INFO    SenderThread:1997813 [dir_watcher.py:finish():406] scan save: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/config.yaml config.yaml
+2022-10-03 14:44:44,101 INFO    SenderThread:1997813 [dir_watcher.py:finish():406] scan save: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/wandb-summary.json wandb-summary.json
+2022-10-03 14:44:44,101 INFO    SenderThread:1997813 [dir_watcher.py:finish():406] scan save: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/output.log output.log
+2022-10-03 14:44:44,101 INFO    SenderThread:1997813 [dir_watcher.py:finish():406] scan save: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/conda-environment.yaml conda-environment.yaml
+2022-10-03 14:44:44,107 INFO    SenderThread:1997813 [sender.py:transition_state():459] send defer: 8
+2022-10-03 14:44:44,108 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: poll_exit
+2022-10-03 14:44:44,130 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: defer
+2022-10-03 14:44:44,130 INFO    HandlerThread:1997813 [handler.py:handle_request_defer():164] handle defer: 8
+2022-10-03 14:44:44,131 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: defer
+2022-10-03 14:44:44,131 INFO    SenderThread:1997813 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-10-03 14:44:44,131 INFO    SenderThread:1997813 [file_pusher.py:finish():171] shutting down file pusher
+2022-10-03 14:44:44,250 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-03 14:44:44,251 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: poll_exit
+2022-10-03 14:44:44,363 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-03 14:44:44,363 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: poll_exit
+2022-10-03 14:44:44,466 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-03 14:44:44,466 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: poll_exit
+2022-10-03 14:44:44,525 INFO    Thread-17 :1997813 [upload_job.py:push():138] Uploaded file /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/requirements.txt
+2022-10-03 14:44:44,537 INFO    Thread-18 :1997813 [upload_job.py:push():138] Uploaded file /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/config.yaml
+2022-10-03 14:44:44,543 INFO    Thread-20 :1997813 [upload_job.py:push():138] Uploaded file /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/output.log
+2022-10-03 14:44:44,550 INFO    Thread-21 :1997813 [upload_job.py:push():138] Uploaded file /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/conda-environment.yaml
+2022-10-03 14:44:44,560 INFO    Thread-19 :1997813 [upload_job.py:push():138] Uploaded file /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/files/wandb-summary.json
+2022-10-03 14:44:44,568 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-03 14:44:44,569 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: poll_exit
+2022-10-03 14:44:44,671 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-03 14:44:44,671 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: poll_exit
+2022-10-03 14:44:44,760 INFO    Thread-11 (_thread_body):1997813 [sender.py:transition_state():459] send defer: 9
+2022-10-03 14:44:44,761 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: defer
+2022-10-03 14:44:44,761 INFO    HandlerThread:1997813 [handler.py:handle_request_defer():164] handle defer: 9
+2022-10-03 14:44:44,762 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: defer
+2022-10-03 14:44:44,762 INFO    SenderThread:1997813 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-10-03 14:44:44,774 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-03 14:44:44,879 INFO    SenderThread:1997813 [sender.py:transition_state():459] send defer: 10
+2022-10-03 14:44:44,879 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: poll_exit
+2022-10-03 14:44:44,880 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: defer
+2022-10-03 14:44:44,880 INFO    HandlerThread:1997813 [handler.py:handle_request_defer():164] handle defer: 10
+2022-10-03 14:44:44,881 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: defer
+2022-10-03 14:44:44,881 INFO    SenderThread:1997813 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-10-03 14:44:44,882 INFO    SenderThread:1997813 [sender.py:transition_state():459] send defer: 11
+2022-10-03 14:44:44,883 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: defer
+2022-10-03 14:44:44,883 DEBUG   SenderThread:1997813 [sender.py:send():302] send: final
+2022-10-03 14:44:44,883 INFO    HandlerThread:1997813 [handler.py:handle_request_defer():164] handle defer: 11
+2022-10-03 14:44:44,883 DEBUG   SenderThread:1997813 [sender.py:send():302] send: footer
+2022-10-03 14:44:44,884 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: defer
+2022-10-03 14:44:44,884 INFO    SenderThread:1997813 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-10-03 14:44:44,983 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-03 14:44:44,983 DEBUG   SenderThread:1997813 [sender.py:send_request():316] send_request: poll_exit
+2022-10-03 14:44:44,984 INFO    SenderThread:1997813 [file_pusher.py:join():176] waiting for file pusher
+2022-10-03 14:44:45,261 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: sampled_history
+2022-10-03 14:44:45,263 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: get_summary
+2022-10-03 14:44:45,264 INFO    MainThread:1997813 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-10-03 14:44:45,264 INFO    MainThread:1997813 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-10-03 14:44:45,264 INFO    MainThread:1997813 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-10-03 14:44:45,265 DEBUG   HandlerThread:1997813 [handler.py:handle_request():141] handle_request: shutdown
+2022-10-03 14:44:45,265 INFO    HandlerThread:1997813 [handler.py:finish():810] shutting down handler
+2022-10-03 14:44:45,883 INFO    WriterThread:1997813 [datastore.py:close():279] close: /home/kamyara/PINO/PINO/wandb/run-20221003_144439-g3h0cm22/run-g3h0cm22.wandb
+2022-10-03 14:44:46,160 INFO    SenderThread:1997813 [sender.py:finish():1312] shutting down sender
+2022-10-03 14:44:46,160 INFO    SenderThread:1997813 [file_pusher.py:finish():171] shutting down file pusher
+2022-10-03 14:44:46,160 INFO    SenderThread:1997813 [file_pusher.py:join():176] waiting for file pusher
+2022-10-03 14:44:46,269 INFO    MainThread:1997813 [internal.py:handle_exit():80] Internal process exited

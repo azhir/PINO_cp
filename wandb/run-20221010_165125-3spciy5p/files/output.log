@@ -1,0 +1,17 @@
+  0%|                                                                                                                                                                                                                                         | 0/500 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kamyara/PINO/PINO/train_burgers.py", line 87, in <module>
+    run(args, config)
+  File "/home/kamyara/PINO/PINO/train_burgers.py", line 39, in run
+    train_2d_burger(model,
+  File "/home/kamyara/PINO/PINO/train_utils/train_2d.py", line 169, in train_2d_burger
+    pde_out = model(pde_x,pde_padding)
+  File "/home/kamyara/anaconda3/envs/myenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kamyara/PINO/PINO/models/fourier2d.py", line 61, in forward
+    x = self.fc0(x)
+  File "/home/kamyara/anaconda3/envs/myenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kamyara/anaconda3/envs/myenv/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument mat2 in method wrapper_mm)

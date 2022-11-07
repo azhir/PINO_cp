@@ -1,0 +1,25 @@
+2022-10-10 19:53:51,969 INFO    MainThread:1573798 [wandb_setup.py:_flush():76] Configure stats pid to 1573798
+2022-10-10 19:53:51,970 INFO    MainThread:1573798 [wandb_setup.py:_flush():76] Loading settings from /home/kamyara/.config/wandb/settings
+2022-10-10 19:53:51,970 INFO    MainThread:1573798 [wandb_setup.py:_flush():76] Loading settings from /home/kamyara/PINO/PINO/wandb/settings
+2022-10-10 19:53:51,970 INFO    MainThread:1573798 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-10 19:53:51,970 INFO    MainThread:1573798 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train_burgers.py', 'program': '/home/kamyara/PINO/PINO/train_burgers.py'}
+2022-10-10 19:53:51,970 INFO    MainThread:1573798 [wandb_init.py:_log_setup():461] Logging user logs to /home/kamyara/PINO/PINO/wandb/run-20221010_195351-3bcv9aat/logs/debug.log
+2022-10-10 19:53:51,970 INFO    MainThread:1573798 [wandb_init.py:_log_setup():462] Logging internal logs to /home/kamyara/PINO/PINO/wandb/run-20221010_195351-3bcv9aat/logs/debug-internal.log
+2022-10-10 19:53:51,970 INFO    MainThread:1573798 [wandb_init.py:init():495] calling init triggers
+2022-10-10 19:53:51,970 INFO    MainThread:1573798 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {'data': {'name': 'Burgers', 'datapath': 'dataset/burgers_pino.mat', 'total_num': 1000, 'offset': 0, 'n_sample': 800, 'nx': 128, 'nt': 100, 'sub': 1, 'sub_t': 1, 'padding': 4, 'pde_sub': 1, 'pde_sub_t': 1, 'pde_padding': 4}, 'model': {'layers': [16, 24, 24, 32, 32], 'modes1': [15, 12, 9, 9], 'modes2': [15, 12, 9, 9], 'fc_dim': 128, 'activation': 'gelu'}, 'train': {'batchsize': 5, 'epochs': 500, 'milestones': [150, 300, 450], 'base_lr': 0.001, 'scheduler_gamma': '0.5  z', 'ic_loss': 10.0, 'f_loss': 1.0, 'xy_loss': 0, 'save_dir': 'burgers-FDM', 'save_name': 'burgers-pretrain-eqn.pt'}, 'log': {'project': 'PINO-burgers-pretrain', 'group': 'gelu-eqn', 'entity': 'kamyara'}}
+2022-10-10 19:53:51,970 INFO    MainThread:1573798 [wandb_init.py:init():548] starting backend
+2022-10-10 19:53:51,971 INFO    MainThread:1573798 [wandb_init.py:init():552] setting up manager
+2022-10-10 19:53:51,977 INFO    MainThread:1573798 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: fork
+2022-10-10 19:53:51,982 INFO    MainThread:1573798 [wandb_init.py:init():558] backend started and connected
+2022-10-10 19:53:51,986 INFO    MainThread:1573798 [wandb_init.py:init():636] updated telemetry
+2022-10-10 19:53:51,992 INFO    MainThread:1573798 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2022-10-10 19:53:52,232 INFO    MainThread:1573798 [wandb_run.py:_on_init():1982] communicating current version
+2022-10-10 19:53:52,332 INFO    MainThread:1573798 [wandb_run.py:_on_init():1986] got version response upgrade_message: "wandb version 0.13.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-10-10 19:53:52,332 INFO    MainThread:1573798 [wandb_init.py:init():700] starting run threads in backend
+2022-10-10 19:53:53,570 INFO    MainThread:1573798 [wandb_run.py:_console_start():1962] atexit reg
+2022-10-10 19:53:53,571 INFO    MainThread:1573798 [wandb_run.py:_redirect():1820] redirect: SettingsConsole.WRAP_RAW
+2022-10-10 19:53:53,571 INFO    MainThread:1573798 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2022-10-10 19:53:53,572 INFO    MainThread:1573798 [wandb_run.py:_redirect():1907] Redirects installed.
+2022-10-10 19:53:53,572 INFO    MainThread:1573798 [wandb_init.py:init():732] run started, returning control to user process

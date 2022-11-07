@@ -1,0 +1,13 @@
+
+
+Epoch 0, train loss: 0.19643 train f error: 0.07076; data l2 error: 0.71782:   0%|▎                                                                                                                                                 | 1/500 [01:09<9:34:12, 69.04s/it]
+
+Epoch 1, train loss: 0.03995 train f error: 0.03231; data l2 error: 0.40859:   0%|▌                                                                                                                                                 | 2/500 [02:24<9:57:38, 72.01s/it]
+Traceback (most recent call last):
+  File "/home/kamyara/PINO/PINO/train_burgers.py", line 87, in <module>
+    run(args, config)
+  File "/home/kamyara/PINO/PINO/train_burgers.py", line 39, in run
+    train_2d_burger(model,
+  File "/home/kamyara/PINO/PINO/train_utils/train_2d.py", line 181, in train_2d_burger
+    train_pino += loss_f.item()
+KeyboardInterrupt

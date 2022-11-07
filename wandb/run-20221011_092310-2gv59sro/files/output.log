@@ -1,0 +1,9 @@
+  0%|                                                                                                                                                                                                                                         | 0/500 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kamyara/PINO/PINO/train_burgers.py", line 87, in <module>
+    run(args, config)
+  File "/home/kamyara/PINO/PINO/train_burgers.py", line 39, in run
+    train_2d_burger(model,
+  File "/home/kamyara/PINO/PINO/train_utils/train_2d.py", line 173, in train_2d_burger
+    pde_out = pde_out[..., pde_padding:-pde_padding, pde_padding:-pde_padding,:].reshape(pde_y.shape)
+RuntimeError: shape '[5, 101, 128]' is invalid for input of size 0

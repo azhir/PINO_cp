@@ -1,0 +1,30 @@
+{
+    "os": "Linux-5.15.0-46-generic-x86_64-with-glibc2.31",
+    "python": "3.10.4",
+    "heartbeatAt": "2022-10-11T00:26:56.451873",
+    "startedAt": "2022-10-11T00:26:56.091375",
+    "docker": null,
+    "gpu": "Quadro P400",
+    "gpu_count": 1,
+    "cpu_count": 36,
+    "cuda": null,
+    "args": [
+        "--config_path",
+        "configs/pretrain/burgers-pretrain.yaml",
+        "--mode",
+        "train",
+        "--log"
+    ],
+    "state": "running",
+    "program": "/home/kamyara/PINO/PINO/train_burgers.py",
+    "codePath": "train_burgers.py",
+    "git": {
+        "remote": "https://github.com/kazizzad/PINO.git",
+        "commit": "c9947bd68d98a3c43c7848e4ffbc69db31b7fd75"
+    },
+    "email": "kaazizzad@gmail.com",
+    "root": "/home/kamyara/PINO/PINO",
+    "host": "d47e8a5-lcedt",
+    "username": "kamyara",
+    "executable": "/home/kamyara/anaconda3/envs/myenv/bin/python"
+}
