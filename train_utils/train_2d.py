@@ -80,14 +80,15 @@ def train_2d_operator(model,
 
             data_loss = myloss(pred, y)
             #PDE loss
-            pred = model(pde_x,pde_padding)
-            pred = pred[..., pde_padding:-pde_padding, pde_padding:-pde_padding,:]
-            pred = pred.reshape(pde_y.shape)
-            pred = pred * pde_mollifier
-
-
-            a = pde_x[..., 0]
-            f_loss = darcy_loss(pred, a)
+            if f_weight > 0:
+                pred = model(pde_x,pde_padding)
+                pred = pred[..., pde_padding:-pde_padding, pde_padding:-pde_padding,:]
+                pred = pred.reshape(pde_y.shape)
+                pred = pred * pde_mollifier
+                a = pde_x[..., 0]
+                f_loss = darcy_loss(pred, a)
+            else:
+                f_loss = torch.zeros(1, device=x.device)
 
             loss = data_weight * data_loss + f_weight * f_loss
             loss.backward()
